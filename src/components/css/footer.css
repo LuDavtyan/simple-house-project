@@ -1,0 +1,72 @@
+@import "./fonts/font.css";
+
+.copyright{
+    width:100% ;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.copyright p {
+    color: #626364;
+    line-height: 1.8;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+@media screen and (max-width: 540px){
+    .copyright{
+        width:100% ;
+        height: 30px;
+
+    }
+
+    .copyright p {
+        text-align: center;
+        font-size: 13px;
+    
+       
+    }
+    
+    
+}
+
+@media screen and (max-width: 360px){
+    .copyright{
+        width: 300px;
+        text-align: center;
+        height: 30px;
+        margin-left: 20px;
+
+    }
+
+    .copyright p {
+        text-align: center;
+        font-size: 14px;
+    
+       
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 320px){
+    .copyright{
+        width: 200px;
+        text-align: center;
+        height: 30px;
+    
+
+    }
+
+    .copyright p {
+        text-align: center;
+        font-size: 13px;
+    
+       
+    }
+    
+    
+}

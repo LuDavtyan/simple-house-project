@@ -1,0 +1,94 @@
+@import "./fonts/font.css";
+
+.section2{
+    width: 100%;
+    height: auto; 
+   
+}
+
+.pizza{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.card{
+    width: 220px;
+    height: 516px;
+    margin-right: 50px;
+    
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+}
+
+
+
+.name{
+    width: 250px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #1A6692;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    
+}
+
+.description{
+    width: 274px;
+    height: 99px;  
+    color: #626364;
+    line-height: 1.8;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+
+.card span {
+    font-size: 20px;
+    color: #2F956D;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+@media screen and (max-width: 1024px){
+    .card{
+        width: 281px;
+    }
+
+    .pizza{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 540px){
+    .card{
+        width: 206px;
+    }
+
+    .pizza{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 412px){
+    .card{
+        width: 206px;
+    }
+
+    .pizza{
+        display: flex;
+        justify-content: center;
+    }
+    
+}

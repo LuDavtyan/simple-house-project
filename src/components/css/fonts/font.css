@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: 'openSans-Italic-VariableFont_wdth,wght';
+    src: local('openSans-Italic-VariableFont_wdth,wght'), url(./font.css) format('opentype');
+}
+  
+
+@font-face {
+    font-family: 'openSans-VariableFont_wdth,wght';
+    src: local('openSans-VariableFont_wdth,wght'), url(./font.css) format('opentype');
+}
+  

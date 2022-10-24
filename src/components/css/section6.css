@@ -1,0 +1,314 @@
+@import "./fonts/font.css";
+
+.section6{
+    width: 100%;
+    height: auto;
+
+}
+
+
+.parallax{
+    min-height: 220px;
+    width: 100%;
+    background-image: url(../images/about-05.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+.readMore{
+    width: 100%;
+    height: 414px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.infoCard{
+    width: 343px;
+    height: 414px;
+    text-align: center;
+    padding: 45px 20px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-size: 17px;
+}
+
+.infoCard i{
+    font-size: 68px;
+    color: #626364 ;
+
+}
+
+.infoCard p {
+   
+    font-size: 1rem;
+    color: #626364;
+    line-height: 1.8;
+    margin-top: 35px;
+}
+
+.infoText{
+    width: 303px;
+    height: 115px;
+    margin-bottom: 35px;
+}
+
+.historyBox{
+    width: 100%;
+    height: 298px;
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.historyBox img {
+    width: 480px;
+    height: 280px;
+}
+
+.history{
+    width: 480px;
+    height: 280px;
+    margin-left: 30px;
+}
+
+.history h4 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #1A6692;
+    margin-bottom: 30px;
+}
+
+.history p {
+    margin-bottom: 20px;
+    color: #626364;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+
+
+.btn1{
+    width: 141px;
+    height: 41px;
+    background-color: #2D99CC;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.btn2{
+    width: 141px;
+    height: 41px;
+    background-color: #319966 ;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.btn3{
+    width: 141px;
+    height: 41px;
+    background-color:  #993332 ;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn1:hover{
+   background-color: #1b5c7a;  
+}
+
+.btn2:hover{
+   background-color: #1e5e3f ;
+}
+
+.btn3:hover{
+  background-color:  #662322 ;
+}
+
+
+@media screen and (max-width: 912px){
+    .readMore{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
+   .history p {
+    margin-bottom: 6px;
+    line-height: 1.8;
+    font-size: 15px;
+   }  
+}
+
+
+@media screen and (max-width: 820px){
+  
+    .historyBox{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .history p {
+        margin-bottom: 6px;
+        line-height: 1.8;
+        font-size: 17px;
+    }  
+
+    .history h4 {
+        font-size: 1.6rem;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 30px;
+      
+    }
+    
+}
+
+@media screen and (max-width: 414px){
+  
+    .history p {
+        margin-bottom: 6px;
+        line-height: 1.8;
+        font-size: 17px;
+        text-align: center;
+    }  
+
+
+    .historyBox img {
+        width: 373px;
+        height: 227px
+    }
+
+
+    .history{
+        width: 345px;
+        height: auto
+        
+    }
+}
+
+
+
+
+@media screen and (max-width: 412px){
+  
+
+
+    .historyBox{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 390px){
+  
+    .historyBox img {
+        width: 300px;
+        height: 227px
+    }
+    
+    .historyBox{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+  
+}
+
+@media screen and (max-width: 375px){
+  
+    .historyBox img {
+        width: 300px;
+        height: 227px
+    }
+    
+    .historyBox{
+        width: 300px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+       
+    }
+    .history p {
+        width: 180px;
+        margin-bottom: 6px;
+        line-height: 1.8;
+        font-size: 15px;
+        text-align: center;
+    }  
+
+    
+  
+}
+
+@media screen and (max-width: 360px){
+  
+    .history p {
+        width: 323px;
+        margin-bottom: 6px;
+        line-height: 1.8;
+        font-size: 15px;
+        text-align: center;
+   }  
+
+    
+  
+}
+
+@media screen and (max-width: 320px){
+  
+    .history p {
+        width: 285px;
+        margin-bottom: 6px;
+        line-height: 1.8;
+        font-size: 13px;
+        text-align: start
+    }  
+
+   .historyBox img {
+    width: 270px;
+    height: 183px
+   }
+  
+}
