@@ -1,10 +1,12 @@
 import React from "react";
 import '../css/main.css'
-import { Link } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 import PizzaMain from "./pizzaMain";
 import SectionThree from "./sectionThree";
+import SaladMain from "./saladMain";
+import NoodleMain from "./noodleMain";
 
-const  Main = () => {
+const  HomeMain = () => {
    return (
     <div className="container">
        <div className="section1"> 
@@ -14,15 +16,21 @@ const  Main = () => {
           </div>
         
           <div className="navMenu">
-          <Link to="/pizzaMain"> <button>Pizza</button> </Link> 
-          <Link to="/saladMain"> <button>Salad</button> </Link> 
-          <Link to="/noodleMain"> <button>Noodle</button></Link> 
+               <Link to="pizzaMain"> <button>Pizza</button> </Link> 
+               <Link to="saladMain"> <button>Salad</button> </Link> 
+               <Link to="noodleMain"> <button>Noodle</button></Link> 
           </div>
+
+            <Routes>
+              <Route path="pizzaMain" element={<PizzaMain/>}/>
+              <Route path="saladMain" element={<SaladMain/>}/>
+              <Route path="noodleMain" element={<NoodleMain/>}/>
+            </Routes>
+
        </div>
-       <PizzaMain/>
        <SectionThree/>
     </div>
    )
 }; 
 
-export default Main
+export default HomeMain

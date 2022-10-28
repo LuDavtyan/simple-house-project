@@ -1,12 +1,10 @@
 import React from "react";
 import '../css/pizzaMenu.css'
-import SectionThree from "./sectionThree";
 import { productNoodle } from '../ProductArray/productNoodle'
 
 const NoodleMain = () => {
     return (
       <div className="container">
-      
         <div className="section2"> 
            <div className="pizza">
                     {productNoodle.map((item) => (
@@ -20,7 +18,6 @@ const NoodleMain = () => {
                  )}
            </div>
       </div>
-      <SectionThree/>
 </div>
       
       

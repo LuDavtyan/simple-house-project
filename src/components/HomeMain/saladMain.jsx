@@ -1,8 +1,6 @@
 import React from "react";
 import '../css/pizzaMenu.css'
 import { productSalad } from '../ProductArray/productSalad'
-import Main from "./main";
-import SectionThree from "./sectionThree";
 
 const SaladMain = () => {
     return (
@@ -20,9 +18,7 @@ const SaladMain = () => {
                  )}
            </div>
       </div>
-      <SectionThree/>
 </div>
-      
       
  )
 }
