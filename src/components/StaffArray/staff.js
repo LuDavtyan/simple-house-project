@@ -44,19 +44,3 @@ export const staff = [
 
 ]
 
-
-export const list = [
-    {
-        li: <Link to="/homeMain"> Home </Link>  
-            
-    },
-
-    {
-       
-        li:  <Link to="/aboutMain">About </Link> 
-    },
-
-    {
-        li:  <Link to="/contactPage">Contact </Link> 
-    }
-]

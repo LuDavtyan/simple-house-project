@@ -28,6 +28,8 @@ const  HomeMain = () => {
             </Routes>
 
        </div>
+
+
        <SectionThree/>
     </div>
    )

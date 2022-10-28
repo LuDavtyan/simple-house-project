@@ -1,17 +1,11 @@
 import React from "react";
 import '../css/header.css'
-import { useState } from "react";
 import logo from "../images/simple-house-logo.png"
-import { list } from '../StaffArray/staff'
+import { NavLink } from "react-router-dom";
+
+const setActive = ({isActive}) => isActive ? 'test' : '';
 
 const Header = () => {
-
-    const [index_id, setindex_id] = useState("");
-    const nav_click_handler = li => {
-        setindex_id(li);
-    };
- 
-
     return(
         <div className="header">
             <div className="container">
@@ -24,12 +18,11 @@ const Header = () => {
                                </div>
                       </div>
                   <div className="menu">
-                      {list.map((li, index) => (
-                            <div className="ul" key={list.li} onClick={() => nav_click_handler(index) }>
-                                <div >{li.li}</div>
-                                <div className={index === index_id ? "test" : ""} />
-                            </div>
-                            ))}
+                        <ul>
+                            <li><NavLink className={setActive} to="/homeMain"> Home </NavLink> </li>
+                            <li><NavLink className={setActive} to="/aboutMain">About </NavLink> </li>
+                            <li><NavLink className={setActive} to="/contactPage">Contact </NavLink> </li>
+                        </ul>
                    </div>       
                 </div>
             </div>
@@ -39,3 +32,5 @@ const Header = () => {
 }
 
 export default Header
+
+
