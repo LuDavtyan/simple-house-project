@@ -2,7 +2,7 @@ import img1 from "../images/about-01.jpg";
 import img2 from "../images/about-02.jpg";
 import img3 from "../images/about-03.jpg";
 import img4 from "../images/about-04.jpg";
-import { Link } from "react-router-dom";
+
 
 export const staff = [
     {   

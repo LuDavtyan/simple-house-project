@@ -369,11 +369,11 @@
     }
 
     .faqs {
-        width: 337px;
+        width: 357px;
     }
         
    .faqs p {
-        width: 400px;
+        width: 354px;
         font-size: 13px;
     }
 
@@ -389,23 +389,47 @@
         height: auto;   
     }
 
+    .answer.show{
+        max-height: 313px;
+    }
+
   
 }
 
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 393px){
    
     .contact p {
-        width: 375px;
+        width: 372px;
         height: 91px;
         font-size: 13px;
     
     }
 
     .faqs p {
-        width: 318px;
+        width: 344px;
         font-size: 15px;
     }
+
+   
+  
+}
+
+@media screen and (max-width: 360px){
+   
+    .contact p {
+        width: 357px;
+        height: 91px;
+        font-size: 13px;
+    
+    }
+
+   
+    .faqs p {
+        width: 322px;
+    
+    }
+  
   
 }
 

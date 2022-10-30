@@ -92,3 +92,14 @@
     }
     
 }
+
+
+@media screen and (max-width: 320px){
+    .description{
+        width: 261px;
+
+
+    }
+   
+    
+}

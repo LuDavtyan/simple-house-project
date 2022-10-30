@@ -32,6 +32,34 @@
     
 }
 
+@media screen and (max-width: 412px){
+    .copyright{
+        width: 351px;
+        text-align: center;
+      
+
+    }
+
+    .copyright p {
+        font-size: 13px;
+
+    }
+    
+    
+}
+
+@media screen and (max-width: 375px){
+    .copyright{
+        width: 343px;
+        text-align: center;
+      
+
+    }
+
+    
+    
+}
+
 @media screen and (max-width: 360px){
     .copyright{
         width: 300px;
@@ -54,7 +82,7 @@
 
 @media screen and (max-width: 320px){
     .copyright{
-        width: 200px;
+        width: 242px;
         text-align: center;
         height: 30px;
     

@@ -150,16 +150,12 @@ a{
 
 @media screen and (max-width: 412px){
     .headerMenu{
-        width: 372px;
-        height: 1066px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 346px;
+      
     }
 
     .logo{
-        width: 415px;
+        width: 355px;
         height:77px ;
         display: flex;
         justify-content: center;

@@ -1,10 +1,14 @@
 import React from "react";
 import '../css/main.css'
-import { Route, Routes, Link } from "react-router-dom";
 import PizzaMain from "./pizzaMain";
 import SectionThree from "./sectionThree";
 import SaladMain from "./saladMain";
 import NoodleMain from "./noodleMain";
+import { 
+   Route,
+   Routes, 
+   Link
+} from "react-router-dom";
 
 const  HomeMain = () => {
    return (
@@ -26,10 +30,8 @@ const  HomeMain = () => {
               <Route path="saladMain" element={<SaladMain/>}/>
               <Route path="noodleMain" element={<NoodleMain/>}/>
             </Routes>
-
+            
        </div>
-
-
        <SectionThree/>
     </div>
    )
